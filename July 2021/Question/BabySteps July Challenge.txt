@@ -1,0 +1,103 @@
+/*
+'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
+'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
+'\\\\\\\\\\\\\\\\   BABYSTEPS JULY CHALLENGE    \\\\\\\\\\\\\\\\\\\\\'
+'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
+'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'
+*/
+
+
+
+/*
+
+            ////////////////////////////////////////////////
+            ////////////////  SUBMISSION   /////////////////
+            ////////////////////////////////////////////////
+
+Solution :
+ - Should be submitted to the following email address : awesomeken7@gmail.com
+ - May only be submitted in any of the following formats [.h, .c, .cpp, .txt] 
+ - DeadLine for submission should be made before 13th August, 2021 23:59:59
+
+
+
+/* 
+            ////////////////////////////////////////////////
+            ////////////////  PROBLEM SET  /////////////////
+            ////////////////////////////////////////////////
+*/
+
+/* PROBLEM 1 */
+
+/*
+As statistician a set of data has been given to you to analyze. Write a program to find the 
+mode of that set.
+
+INPUT METHOD
+The program should take in size N of the data to be analyzed and D the data set to be analyzed.
+
+N - is an integer
+D - is a set of integers.
+
+SAMPLE INPUT
+5
+2 8 1 2 6
+
+SAMPLE OUTPUT
+2
+*/
+/*
+#include <iostream>
+
+int mode(int sz, int* arr) {
+    int m = 0;
+
+    //Write code to find mode here...
+
+    return m;
+}
+int main(int argc, char** argv)
+{
+
+    //std::cout << "The mode is " << mode(n, d) << std::endl;
+    
+    return 0;
+}
+
+*/
+
+/* ***************************************************************************************** */
+
+/* PROBLEM 2 */
+
+/*
+Write a program which takes in a number and returns a reverse order of the number.
+
+INPUT METHOD
+The program should take in a number N 
+
+
+SAMPLE INPUT
+28126
+
+SAMPLE OUTPUT
+62182
+*/
+/*
+#include <iostream>
+
+int reverse_num(int n) {
+
+    //Write code to reverse the number here...
+
+    return n;
+}
+int main(int argc, char** argv)
+{
+
+    //std::cout << "The reverse_num is " << reverse_num(n) << std::endl;
+    
+    return 0;
+}
+
+*/
