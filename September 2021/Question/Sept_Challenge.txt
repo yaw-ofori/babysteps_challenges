@@ -1,0 +1,64 @@
+/*******************************************************************************************
+* /////////////////////////////////////////////////////////////////////////////////////// **
+* ////////////////////  Babysteps September Project    ////////////////////////////////// **
+* /////////////////////////////////////////////////////////////////////////////////////// **
+********************************************************************************************/
+/*
+
+            ////////////////////////////////////////////////
+            ////////////////  SUBMISSION   /////////////////
+            ////////////////////////////////////////////////
+
+Solution :
+ - Should be submitted to the following email address : awesomeken7@gmail.com
+ - May only be submitted in any of the following formats [.h, .c, .cpp, .txt] 
+ - DeadLine for submission should be made before 13th October, 2021 23:59:59
+
+
+
+/* 
+            ////////////////////////////////////////////////
+            ////////////////  PROBLEM SET  /////////////////
+            ////////////////////////////////////////////////
+*/
+Write a class for Fraction. 
+The class should be separated into two files *.h and *.cpp; with the *.h file having the class declaration
+and *.cpp file having the class implementation. 
+The class should have a constructor that takes in the numerator and denomenator.
+
+
+Features of Fraction Class 
+It should be able to perform the various basic mathematical operations
+
+- ASSIGNMENT
+Given two Fraction objects f1(2,3) and f3
+eg. Fraction f1(2,3), f3;
+f3 = f1;
+Where f3 is (2, 3)
+
+- ADDITION
+Given two Fraction objects f1(2,3) and f2(3, 6)
+f3 = f1 + f2;
+Where f3 is (4, 6)
+
+- SUBTRACTION
+Given two Fraction objects f1(2,3) and f2(3, 6)
+f3 = f1 - f2;
+Where f3 is (1, 6)
+
+- MULTIPLICATION
+Given two Fraction objects f1(2,3) and f2(3, 6)
+f3 = f1 * f2;
+Where f3 is (6, 18)
+
+- DIVISION
+Given two Fraction objects f1(2,3) and f2(3, 6)
+f3 = f1 / f2;
+Where f3 is (12, 9)
+
+- It should have accessor and modifier functions for the various private data. 
+- It should have a function toDecimal(); that converts the fraction into decimal
+eg. Fraction F1(1, 4); 
+        std::cout << F1.toDecimal() << std::endl;
+        result : 0.25
+ 
